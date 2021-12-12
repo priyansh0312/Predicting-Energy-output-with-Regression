@@ -1,7 +1,7 @@
 # Predicting Productivity of Garment Employees
 ## Description
 
-Predicting the actual productivity of Garment Employees using Scikit-Learn and Seaborn. Regression models - Multiple Linear Regeression, Polynomial Linear Regression with 2 degrees, Random Forest Regression and Support Vector Regression, were trained over 7 selected features from the Sequential Feature Selector.
+Predicting the energy output of the engine using Scikit-Learn and Seaborn. Regression models - Multiple Linear Regeression, Polynomial Linear Regression with 4 degrees, Random Forest Regression and Support Vector Regression, were trained over the features. Random Forests outperforms all the other models with an R2 score of 0.961
 
 
 
@@ -17,12 +17,11 @@ Predicting the actual productivity of Garment Employees using Scikit-Learn and S
   - matplotib
   
 ## Dataset:
-* [Kaggle](https://www.kaggle.com/ishadss/productivity-prediction-of-garment-employees) dataset with 1197 entries and 15 features
+* [UCI Mahcine learning Respository] dataset with 9568 entries and 4 features
 ## Code Execution:
-* Importing and Cleaning the dataset - filling missing values
-* Feature Selection - using Sequential Feature Selector
+* Importing the dataset and libraries
 * Feature Scaling - using Standard Scaler
-* Model Training and Evaluation - using Linear Regression
+* Model Training and Evaluation - using Various Regression Techniques
 
 ## Authors
 contributors name and contact info ex.[@priyansh0312](https://github.com/priyansh0312)
